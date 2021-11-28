@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/logo.png">
+
+</head>
+<body>
+    <div id="app">
+    <div>
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            <a class="nav-link" href="#">Ajoutez des exercices</a>
+            <a class="nav-link" href="#">Exemples de programmes</a>
+            <a class="nav-link" href="#">Se connecter</a>
+          </nav>    
+    </div>
+
+    <section id="form">
+        <h1>
+            Créez votre programme du jour
+        </h1>
+        <form action="" method="post">
+            <div id="muscle">
+            <h4>• Quel(s) muscle(s) voulez-vous travailler ?</h4>
+            <label>
+                <input type="checkbox" id="abdo">
+                Abdos
+            </label>
+            <label>
+                <input type="checkbox" id="biceps">
+                Biceps
+            </label>
+            <label>
+                <input type="checkbox" id="triceps">
+                Triceps
+            </label>
+            <label>
+                <input type="checkbox" id="fessier">
+                Fessier
+            </label>
+            <label>
+                <input type="checkbox" id="dos">
+                Dos
+            </label>
+            <label>
+                <input type="checkbox" id="pectoraux">
+                Pectoraux
+            </label>
+            </div>
+
+            <div id="Temps">
+                <h4>• Quelle doit être la durée de la séance ?</h4>
+                <input type="number" id="heure" value="0">
+                <label for="heure">h</label>
+                <input type="number" id="minute">
+                <label for="minute">min</label>
+            </div>
+
+            <div id="difficultyDiv">
+                <h4>• Quelle difficulté voulez-vous choisir ?</h4>
+                <label for="difficulty">Difficulté </label>
+                <select id="difficulty">
+                    <option value="Très facile">Très facile</option>
+                    <option value="Facile">Facile</option>
+                    <option value="Normale" selected="selected">Normale</option>
+                    <option value="Difficile">Difficile</option>
+                    <option value="Très difficile">Très difficile</option>
+                </select>
+            </div>
+            <input type="submit" value="Créer" id="submit" />
+        </form>
+    </section>
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nom": "Crunch",
+      "type": "abdo",
+      "sousType": "centraux",
+      "description": "Contractez vos abdominaux tout en rentrant votre ventre afin de faire décoller vos épaules du sol. Gardez la tête droite, dans l’alignement du buste, et maintenez votre regard vers le haut tout au long de l’exécution du mouvement",
+      "img1": "./assets/img_db/crunch1.png",
+      "img2": "",
+      "alt": "image crunch",
+      "difficulty": [
+        {
+          "dif": "tfacile",
+          "duree:": 40,
+          "affichage": "15",
+          "s": 40,
+          "min": 0
+        },
+        {
+          "dif": "facile",
+          "duree:": 50,
+          "affichage": "20",
+          "s": 50,
+          "min": 0
+        },
+        {
+          "dif": "normale",
+          "duree:": 70,
+          "affichage": "25",
+          "s": 10,
+          "min": 1
+        },
+        {
+          "dif": "difficile",
+          "duree:": 85,
+          "affichage": "30",
+          "s": 25,
+          "min": 1
+        },
+        {
+          "dif": "tdifficile",
+          "duree:": 100,
+          "affichage": "35",
+          "s": 40,
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nom": "Foot to foot crunch",
+      "type": "abdo",
+      "sousType": "côté",
+      "description": "On se place allongé sur le dos et on va toucher avec ses mains ses pieds à droite puis à gauche",
+      "img1": "./assets/img_db/foottofoot.jpg",
+      "img2": "",
+      "alt": "image foot to foot crunch",
+      "difficulty": [
+        {
+          "dif": "tfacile",
+          "duree:": 20,
+          "affichage": "20",
+          "s": 20,
+          "min": 0
+        },
+        {
+          "dif": "facile",
+          "duree:": 25,
+          "affichage": "25",
+          "s": 25,
+          "min": 0
+        },
+        {
+          "dif": "normale",
+          "duree:": 30,
+          "affichage": "30",
+          "s": 30,
+          "min": 0
+        },
+        {
+          "dif": "difficile",
+          "duree:": 35,
+          "affichage": "35",
+          "s": 35,
+          "min": 0
+        },
+        {
+          "dif": "tdifficile",
+          "duree:": 40,
+          "affichage": "40",
+          "s": 40,
+          "min": 0
+        }
+      ]
+    }
+  ]
+}

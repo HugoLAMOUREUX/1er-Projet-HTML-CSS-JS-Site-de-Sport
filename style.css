@@ -1,0 +1,134 @@
+* {
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 40px 0 0 0;
+  background: #2c2f33;
+  text-align: center;
+  overflow-x: hidden;
+}
+.nav {
+  background: #23272a;
+  margin: -40px 0 0 0;
+  height: 41px;
+  padding: 5px;
+  position: fixed absolute;
+  width: 100%;
+}
+.nav-link {
+  font-size: 1.5em;
+  color: white;
+  float: center;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0;
+}
+.nav-link:hover {
+  background: #99aab5;
+}
+#form {
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 30%;
+  height: 350px;
+  border: 2px solid white;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  margin-top: 20px;
+}
+input,
+select {
+  background-color: #40444a;
+}
+
+input[type="number"] {
+  width: 30px;
+  border-radius: 6px;
+}
+input[type="submit"] {
+  border-radius: 10px;
+  position: relative;
+  left: 35%;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+#submit {
+  margin: 20px;
+}
+
+#start {
+  margin-top: 20px;
+  color: #ffffff;
+  background: #2c2f33;
+  border-radius: 8px;
+  height: 30px;
+}
+#start:hover {
+  background: #585a5c38;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  list-style: none;
+}
+li {
+  flex: 1 0 15%;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 10px;
+  padding: 25px 10px 10px;
+  border-radius: 10px;
+  background: #585a5c69;
+  display: grid;
+  grid-template-rows: 30px 1fr 35px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "a a"
+    "b b"
+    "c d";
+}
+img {
+  grid-area: b;
+  max-width: 300px;
+  max-height: 300px;
+  align-self: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.card-header {
+  grid-area: a;
+  justify-content: center;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+li i {
+  background: #585a5c69;
+  margin: 10px;
+  border-radius: 10px;
+  height: 25px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+li i:hover {
+  background: #585a5c38;
+}
+h2 {
+  position: relative;
+  text-align: center;
+}
